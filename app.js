@@ -28,6 +28,6 @@ app
   //.use(compression())
   .use("/", indexRoute);
 
-app.locals.baseURL = "http://localhost";
+app.locals.baseURL = "https://anycircle.app";
 
 module.exports = app;
